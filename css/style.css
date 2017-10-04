@@ -9,3 +9,23 @@ td, th {
    padding: 8px;
    border: 1px solid black;
 }
+
+tr:nth-child(even) {
+   background-color: #eee;
+}
+
+thead, tfoot {
+   background-color: #999;
+}
+
+thead th {
+   border: 0;
+}
+
+tfoot tr td:nth-child(1) {
+   text-align: right;
+}
+
+tfoot tr td:nth-child(2) {
+   font-weight: bold;
+}
